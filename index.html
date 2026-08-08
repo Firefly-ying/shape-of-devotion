@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>溺爱的形状 · 在线阅读</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar"><button id="menu" class="icon" aria-label="打开目录" title="打开目录">☰</button><div class="brand">溺爱的形状 <span id="chapterLabel"></span></div><div class="actions"><span id="percent">0%</span><button id="settings" class="icon" aria-label="阅读设置" title="阅读设置">⚙</button></div><div id="progress"></div></header>
+<aside id="toc" class="drawer"><div class="drawer-head"><strong>目录</strong><button id="closeToc" class="icon">×</button></div><div id="tocList"></div></aside><div id="scrim"></div>
+<aside id="panel" class="settings"><div class="drawer-head"><strong>阅读设置</strong><button id="closeSettings" class="icon">×</button></div><label>主题<select id="theme"><option value="light">浅色</option><option value="sepia">暖色</option><option value="dark">深色</option></select></label><label>字号<input id="size" type="range" min="15" max="25" value="18"><output id="sizeValue">18px</output></label><button id="reset" class="text-button">清除阅读进度</button></aside>
+<main id="app"><section class="loading">正在打开书籍…</section></main>
+<button id="top" class="top-button" title="回到顶部">↑</button>
+<script src="./app.js"></script>
+</body></html>
